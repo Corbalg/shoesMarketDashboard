@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+}
+header{
+    padding: 10px;
+    background-color: rgb(17, 186, 216)
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.caja-title{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+.top-section{
+    margin-top: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.top-box{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.top-button{
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.table-section{
+    margin-top: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.footer-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+.footer-msg{
+    font-size: 0.8rem;
+    color:#797979
+}
+.cargando{
+    font-size: 1.5rem;
+    color:#797979;
+    margin-top: 15px;
+    text-align: center;
+}
+
+ /* Fuentes */
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nunito-sans{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
